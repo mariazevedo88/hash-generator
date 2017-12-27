@@ -27,10 +27,6 @@ a:hover {
 	background-color:#35A49C;
 }
 
-.testimonial span.author a {
-	color: #79CDC0;
-}
-
 /* --- icon box hover --- */
 .hi-icon-effect-5 .hi-icon {
 	color: #35A49C;
@@ -39,12 +35,6 @@ a:hover {
 .no-touch .hi-icon-effect-5 .hi-icon:hover {
 	background: #35A49C;
 	box-shadow: 0 0 0 8px  #79CDC0;
-}
-
-
-/* portfolio */
-.portfolio-item .portfolio-desc {
-	background: #35A49C;
 }
 
 /* btn */
@@ -63,11 +53,6 @@ a:hover {
    border-color: #35A49C;
 }
 
-/* contact */
-.validation {
-	color: red;
-}
-
 /* footer */
 .social-circle li a {
 	background:#35A49C;
@@ -75,12 +60,4 @@ a:hover {
 
 a.scrollup{
 	background:#35A49C;
-}
-
-#sendmessage {
-    color: green;
-}
-
-#errormessage {
-    color: red;
 }

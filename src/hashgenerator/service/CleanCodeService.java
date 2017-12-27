@@ -8,21 +8,16 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
-@WebServlet(urlPatterns="/generate") 
-public class HashGeneratorService extends HttpServlet{
+@WebServlet(urlPatterns="/clean") 
+public class CleanCodeService extends HttpServlet{
 
-	private static final long serialVersionUID = 3580756825981497734L;
-	
+	private static final long serialVersionUID = 4297462306805026277L;
+
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-		String stringToHash = req.getParameter("hash");
-		Integer hash = Math.abs(stringToHash.hashCode());
 		
-		HttpSession session = req.getSession();
-		session.setAttribute("hashGenerated", hash);
-		req.setAttribute("hashGenerated", hash);
+		req.getSession().removeAttribute("hashGenerated");
 		
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
 		dispatcher.forward(req, res);

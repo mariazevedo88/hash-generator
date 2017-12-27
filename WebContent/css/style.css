@@ -1,10 +1,3 @@
-/*
-    Theme Name: Amoeba
-    Theme URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-
 /* ==== Google font ==== */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 /* === fontawesome === */
@@ -331,19 +324,6 @@ section.section {
 	font-weight: 700;
 }
 
-/* ==========================
- --- Parallax ---
-============================= */
-
-#parallax1{	
-	background-image: url(../img/parallax/img1.jpg);
-}
-#parallax2{	
-	background-image: url(../img/parallax/img2.jpg);
-}
-#testimonials{	
-	background-image: url(../img/parallax/img3.jpg);
-}
 /*===========================
   --- Header & menu ----
 =========================== */
@@ -427,8 +407,6 @@ h1 a.navbar-brand {
 .navbar-collapse.in {
 	margin-top: -5px !important;
 }
-
-
 
 /*===========================
   --- Featured section ----
@@ -597,25 +575,8 @@ section.featured input {
 }
 
 /*==========================
-About
+Form
 =========================== */
-
-.member-photo {
-	box-sizing:border-box;
-	-webkit-border-radius:50%;
-		-moz-border-radius:50%;
-			border-radius:50%;	
-	margin: 0 0 20px 0;
-}
-.member-photo img {
-	-webkit-border-radius:50%;
-		-moz-border-radius:50%;
-			border-radius:50%;	
-}
-
-.team-detail h4 {
-	font-weight: 700;
-}
 
 #hash-form {
 	position: relative;
@@ -703,18 +664,6 @@ div.cform-response-output {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 }
-
-/*====================
-  Clients
-==================== */
-#clients img {
-	opacity: 0.7;
-}
-
-#clients img:hover {
-	opacity: 1;
-}
-
 
 /*=========================
   Footer
@@ -809,8 +758,6 @@ a.scrollup:hover{
 .btn-cta.btn-lg {
 	border-bottom: 4px solid;
 }
-
-
 
 /* ========================================
 Media queries
